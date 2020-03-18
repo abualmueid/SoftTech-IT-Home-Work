@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+}
+
+/*header-area*/
+/*---------------------------------------------------------------------------*/
+.header-area{
+	background-color: #3F5D9A;
+}
+.header-area .container {
+	width: 75%;
+	margin: auto;
+	padding: 20px 200px 5px;
+}
+
+/*logo-area*/
+.logo-area{
+	float: left;
+	width: 50%;
+}
+.login-area{
+	overflow: hidden;
+}
+.login-area .container img:hover{
+	cursor: pointer;
+}
+
+/*login-area*/
+.login-area input{
+	display: block;
+	margin: 5px 15px 5px 0px;
+	padding: 3px;
+	border: 1px solid #1D2A5B;
+}
+.login-area input[type="label"]{
+	cursor: auto;
+}
+.login-area{
+	font-family: tahoma;
+	font-size: 13px;
+}
+.login-area label{
+	
+	color: #F3FFFF;
+}
+.login-area .email-area{
+	float: left;
+}
+.login-area .password-area{
+	float: left;
+}
+.login-area .password-area a{
+	color: #9CB4D8;
+	text-decoration: none;
+}
+.login-area .password-area a:hover{
+	text-decoration: underline;
+}
+
+/*submit-area*/
+.login-area .submit-area{
+	margin-top: 18px;
+	overflow: hidden;
+}
+.login-area .submit-area input{
+	background-color: #5379c1;
+	color: #ffffff;
+	font-weight: bold;
+}
+.login-area .submit-area input:hover{
+	background-color: #3B5998;
+	cursor: pointer;
+}
+
+@media all and (max-width: 1152px) {
+	.login-area .email-area,
+	.login-area .password-area {
+		float: none;
+	}
+}
+
+@media all and (max-width: 768px){
+	.logo-area{
+		float: none;
+		margin: auto;
+		margin-bottom: 50px;
+		padding-top: 20px;
+	}
+	.login-area .email-area input, 
+	.login-area .password-area input{
+		width: 100%;
+	}
+	.header-area .container{
+		padding: 0px;
+	}
+	.login-area .submit-area{
+		padding-bottom: 20px;
+	}
+}
