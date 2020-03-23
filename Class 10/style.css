@@ -1,0 +1,192 @@
+body{
+	margin: 0;
+}
+
+/*header-area*/
+/*---------------------------------------------------------------------------*/
+.header-area{
+	background-color: #3F5D9A;
+}
+.header-area .container {
+	width: 75%;
+	margin: auto;
+	padding: 20px 200px 5px;
+}
+
+/*logo-area*/
+.logo-area{
+	float: left;
+	width: 50%;
+}
+.login-area{
+	overflow: hidden;
+}
+.login-area .container img:hover{
+	cursor: pointer;
+}
+
+/*login-area*/
+.login-area input{
+	display: block;
+	margin: 5px 15px 5px 0px;
+	padding: 3px;
+	border: 1px solid #1D2A5B;
+}
+.login-area input[type="label"]{
+	cursor: auto;
+}
+.login-area{
+	font-family: tahoma;
+	font-size: 13px;
+}
+.login-area label{
+	
+	color: #F3FFFF;
+}
+.login-area .email-area{
+	float: left;
+}
+.login-area .password-area{
+	float: left;
+}
+.login-area .password-area a{
+	color: #9CB4D8;
+	text-decoration: none;
+}
+.login-area .password-area a:hover{
+	text-decoration: underline;
+}
+
+/*submit-area*/
+.login-area .submit-area{
+	margin-top: 18px;
+	overflow: hidden;
+}
+.login-area .submit-area input{
+	background-color: #5379c1;
+	color: #ffffff;
+	font-weight: bold;
+}
+.login-area .submit-area input:hover{
+	background-color: #3B5998;
+	cursor: pointer;
+}
+
+/*------------------------------------------------signup-area-------------------------------------------*/
+
+.signup-area{
+	background: linear-gradient(#FFFFFF, #D3D8E8);
+	font-family: 'Bellota Text', cursive;
+}
+.signup-area .container{
+	width: 75%;
+	margin: auto;
+}
+.connect-area{
+	width: 45%;
+	float: left;
+	margin-right: 10%;
+}
+
+.account-area{
+	width: 45%;
+	overflow: hidden;
+	padding-bottom: 15px;
+}
+
+.account-area input[type="text"]:nth-child(1){
+	width: 47.5%;
+	float: left;
+	margin-right: 5%;
+}
+.account-area input[type="text"]:nth-child(2){
+	width: 47.5%;
+	overflow: hidden;
+}
+
+.account-area input[type="text"],
+.account-area input[type="password"]{
+	width: 100%;
+	font-size: 18px;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	/*border: 5px solid #ffffff;*/
+}
+.account-area h3:hover{
+	cursor: auto;
+}
+
+.account-area p{
+	font-size: 12px;
+}
+.account-area h3:nth-child(2),
+.account-area h3:nth-child(3){
+	color: #90949C;
+}
+
+.account-area a{
+	text-decoration: none;
+}
+.account-area a:hover{
+	text-decoration: underline;
+}
+.create{
+	font-size: 18px;
+}
+.account-area input[type="submit"]{
+	padding: 8px 60px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	background: linear-gradient(#76B861, #578843);
+	border: 1px solid #000000;
+	border-radius: 5px;
+	margin: 15px 0px 20px;
+
+}
+.account-area input[type="submit"]:hover{
+	background: linear-gradient(#578843, #76B861);
+	cursor: pointer;
+}
+
+
+/*---------------------------footer-area---------------------------------------------*/
+.footer-area .container{
+	width: 75%;
+	margin: auto;
+	font-size: 12px;
+	font-family: tahoma;
+	padding: 50px 0;
+}
+.footer-area .container ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.footer-area .container ul li{
+	float: left;
+	margin-right: 15px;
+}
+.footer-area .container .footer-top ul li:last-child{
+	padding: 2px 10px;
+	background-color: #EBEDF0;
+}
+.footer-area .container .footer-middle hr{
+	border-top: 1px solid grey;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.footer-area .container .footer-top,
+.footer-area .container .footer-middle, 
+.footer-area .container .footer-bottom{
+	overflow: hidden;
+}
+.footer-area .container .footer-middle{
+	padding: 10px 0;
+}
+.footer-area .container .footer-bottom{
+	padding-bottom: 30px;
+}
