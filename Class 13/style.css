@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+}
+
+.menu{
+	font-family: tahoma;
+	font-size: 20px;
+	background-color: #fab1a0;
+}
+
+.menu:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.menu ul{
+	margin: 0;
+	white-space: nowrap;
+}
+.menu ul li{
+	list-style: none;
+	padding: 20px;
+}
+.menu > ul > li{
+	float: left;
+	position: relative;
+}
+.menu ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.menu ul li:hover{
+	background-color: #ffeaa7;
+}
+.menu ul ul {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	padding-left: 0;
+}
+.menu ul ul li{
+	
+}
+.menu ul li:hover ul{
+	display: block;
+	/*text-indent: 50px;*/
+}
+.menu> ul> li:nth-child(3):hover {
+	background: transparent;
+}
+.menu ul ul li:before{
+	content: '-';
+	margin-right: 10px;
+}
+.menu ul ul li:hover{
+	background-color: #81ecec;
+}
+
+@media all and (max-width: 768px){
+	.menu ul ul{
+		white-space: nowrap;
+		z-index: 9999;
+		position: inherit;
+}
+	.menu ul li{
+		float: none;
+}
+@media all and (max-width: 320px){
+	.menu ul ul{
+		white-space: nowrap;
+		z-index: 9999;
+		position: inherit;
+}
+	.menu{
+		font-family: tahoma;
+		font-size: 16px;
+		background-color: #fab1a0;
+}
+	.menu ul li{
+		list-style: none;
+		float: none;
+		padding: 5px;
+}
+}

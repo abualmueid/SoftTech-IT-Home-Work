@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	font-family: Segoe UI; 
+}
+
+/******** header-area **********/
+.header-area{
+	background-color: rgb(14, 28, 56);
+	color: #ffffff;
+}
+
+.header-area .container{
+	width: 40%;
+	margin: auto;
+	text-align: center;
+}
+.header-area .logo img{
+	width: cover;
+	height: auto;
+}
+.header-area h1{
+	text-transform: uppercase;
+	font-size: 44px;
+}
+
+.header-area .fontawesome i{
+	font-size: 40px;	
+	color: #ffffff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+
+/******** do-area **********/
+.do-area{
+	background-image: url("image/download.png");
+	background-size: cover;
+	overflow: hidden;
+}
+.do-area .container{
+	width: 50%;
+	margin: auto;
+	color: #333333;
+}
+.do-area .top-area{
+	margin-top: 70px;
+}
+.do-area h1{
+	margin-top: 70px;
+	text-align: center;
+	font-size: 44px;
+	text-transform: uppercase;
+}
+
+.do-area .bottom-area p{
+	font-size: 14px;
+}
+.do-area .bottom-area h3{
+	text-transform: uppercase;
+}
+.do-area .bottom-area .template,
+.do-area .bottom-area .brand,
+.do-area .bottom-area .dreams{
+	float: left;
+	width: 32%;
+	margin-right: 1%;
+	overflow: hidden;
+}
+.do-area .bottom-area{
+	margin-bottom: 70px;
+	overflow: hidden; /*[!!! Dangerous !!! Must be given!!!]*/
+}
