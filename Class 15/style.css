@@ -1,0 +1,388 @@
+/*-----------------------------------------------------------
+
+  Template Name: Phototime PSD Template
+  Template URI: http://freebiesbug.com/phototime
+  Description: Quality photo frame template
+  Author: Abu Al Mueid
+  Author URI: www.abualmueid24.com
+  Version: 1.0.0
+
+-------------------------------------------------------------*/
+
+/************************************** Typography starts ***************************************/
+
+@font-face{
+	font-family: gothamroundedbold;
+	src: url('webfonts/gothamroundedbold.woff');
+}
+
+@font-face{
+	font-family: gothamroundedmedium;
+	src: url('webfonts/gothamroundedmedium.woff');
+}
+
+@font-face{
+	font-family: gothamroundedbook;
+	src: url('webfonts/gothamroundedbook.woff');
+}
+
+h4, input[type="email"]{
+	font-family: gothamroundedmedium;	
+}
+
+ul, h1, h2, button{
+	font-family: gothamroundedbold;
+} 
+
+p{
+	font-family: gothamroundedbook;
+}
+h1, h2, h3{
+	text-transform: uppercase;
+	font-family: gothamroundedmedium;
+}
+
+body{
+	letter-spacing: 3px;
+	line-height: 1.3em;	
+}
+
+/**************************************** Typography ends *****************************************/
+
+
+button{
+	text-transform: uppercase;
+	padding: 15px 30px;
+	background-color: #1abc9c; 
+	color: #ffffff;
+	border: 1px solid #16a085;
+	border-radius: 3px;
+	font-family: ;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+button:hover{
+	cursor: pointer;
+	color: #16a085;
+	background-color: #ffffff;
+	border: 1px solid #16a085;
+
+}
+
+/**************************** header-area *****************************/
+
+.header-area{
+	background-image: url('images/header-bg.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	overflow: hidden;
+	text-align: center;
+}
+
+.header-area .container{
+	padding: 40px 0 5px;
+	width: 80%;
+	margin: auto;
+}
+
+.header-area img{
+	width: 40px;
+	height: 40px;
+	margin-top: -30px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.header-area ul {
+	list-style: none;
+	display: inline-block;
+	/*font-size: 14px;*/
+	
+}
+
+.header-area nav ul li{
+	margin-right: 50px;
+	float: left; 
+	text-transform: uppercase;
+}
+
+.header-area ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.header-area > ul > li:hover a{
+	color: #16a085;
+}
+
+.header-area .life{
+	overflow: hidden;
+	margin: 180px 0 170px;
+}
+
+.header-area .fa ul li{
+	float: left;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+/************************ get-started-area ****************************/
+
+.get-started-area{
+	background-image: url('images/hand.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.get-started-area .container{
+	width: 30%;
+	margin: auto;
+	float: left;
+	padding: 80px;
+}
+
+.get-started-area h3{
+	font-size: 16px;
+	color: #16a085;
+	font-family: gothamroundedbold;
+	text-transform: uppercase;
+}
+
+.get-started-area p{
+	font-size: 10px;
+	font-family: gothamroundedbook;
+	margin: 50px 0;
+}
+
+/*********************** design-area *******************************/
+
+.design-area{
+	background-image: url('images/mobile.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.design-area .container{
+	padding: 130px 80px 30px;
+	width: 30%;
+	margin: auto;
+	float: right;
+}
+
+.design-area h3{
+	font-size: 16px;
+	color: #16a085;
+	text-transform: uppercase;
+}
+
+.design-area p{
+	font-size: 10px;
+}
+
+.design-area button{
+	margin: 30px 0;
+}
+
+/**************************************** community-area ************************************/
+
+.community-area{
+	background-color: #f5f6f7;
+}
+
+.community-area .container{
+	width: 80%;
+	margin: auto;
+	padding: 80px 0 100px;
+	position: relative;
+}
+
+.community-area p{
+	font-family: gothamroundedmedium;
+	font-size: 10px;
+}
+
+
+.community-area .row-1{
+	text-align: right;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.community-area .row-2{
+	overflow: hidden;
+}
+
+.community-area .col-2 img,
+.community-area .col-3 img{
+	width: 100%;
+}
+
+.community-area .col-1{
+	width: 26%;
+	margin-right: 2%;
+	float: left;
+	text-align: center;
+}
+
+.community-area .col-2{
+	width: 33%;
+	margin-right: 3%;
+	float: left;
+}
+
+.community-area .col-3{
+	width: 33%;
+	margin-right: 3%;
+	overflow: hidden;
+}
+
+
+
+
+
+/******************************** subscribe-area ********************************/
+
+.subscribe-area{
+	background-image: url('images/subscribe-bg1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	text-align: center;
+	padding: 350px 0 300px;
+}
+
+.subscribe-area .container{
+	width: 40%;
+	margin: auto;
+}
+
+.subscribe-area h2{
+	color: #ffffff;
+}
+
+.subscribe-area input[type="email"]{
+	padding: 15px 50px 15px 15px; 
+	border-radius: 3px 0 0 3px;
+	border: 1px solid #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 14px;
+	margin-right: -8px;
+	margin-top: 10px;
+}
+
+.subscribe-area i{
+	background-color: #16a085;
+	padding: 15px 16px 17px 17px;
+	color: #ffffff;
+	border-radius: 0 3px 3px 0;
+}
+
+.subscribe-area i:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+
+/**************************** download-area ******************************/
+
+.download-area{
+	background-color: #f5f6f7;
+	overflow: hidden;
+	text-align: center;
+	padding: 80px 80px 100px 80px;
+}
+
+.download-area .container{
+	width: 80%;
+	margin: auto;
+}
+
+.download-area p{
+	font-size: 12px;
+}
+
+.download-area .store{
+	margin-top: 40px;
+}
+
+.download-area button{
+	padding: 20px 70px 20px 20px; 
+	border-radius: 3px 0 0 3px;
+	font-size: 14px;
+	margin-right: -7px;
+}
+
+.download-area i{
+	color: #ffffff;
+	font-size: 24px;
+	background-color: #16a085;
+	padding: 13px 20px 21px 20px;
+	border-radius: 0 3px 3px 0;
+}
+
+.download-area .first{
+	margin-right: 20px;
+}
+
+
+
+
+/********************** footer-area **********************/
+
+.footer-area{
+	margin: 30px 0;
+}
+
+.footer-area .container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.footer-area .left{
+	width: 90%;
+	float: left;
+}
+
+.footer-area .right{
+	width: 10%;
+	overflow: hidden;
+}
+
+.footer-area ul{
+	list-style: none;
+	text-transform: uppercase;
+	
+	padding: 0;
+}
+
+.footer-area ul li{
+	float: left;
+	overflow: hidden;
+}
+
+.footer-area ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer-area p{
+	clear: both;
+	font-size: 14px;
+	font-family: gothamroundedbold;
+	margin-top: 50px;
+}
+
+.footer-area span{
+	color: #1abc9c;
+	margin: 0 5px;
+}
+

@@ -120,6 +120,7 @@ body{
 .work-area .category ul li:first-child a{
 	border-bottom: 2px solid #7b77c9;
 }
+
 .work-area .category a{
 	color: #ffffff;
 	text-decoration: none;
@@ -200,7 +201,6 @@ body{
 .photo-area img{
 	width: 30%;
 	margin-right: 2%;
-
 }
 .photo-area .row-1{
 	margin: 30px 0 10px;

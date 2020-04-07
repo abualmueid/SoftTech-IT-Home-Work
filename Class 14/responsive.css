@@ -1,0 +1,27 @@
+@media all and (max-width: 768px){
+	.header-area .container{
+		width: 60%;
+}
+	.header-area .logo img{
+		width: 80px;
+		height: 80px;
+}
+	.do-area .container{
+		width: 60%;
+}
+	.work-area .container{
+		width: 60%;
+}
+
+	.photo-area .container{
+		width: 60%;
+}
+
+	.subscribe-area input[type="text"]{
+		margin-bottom: 10px;
+}
+
+	.footer-area .container{
+		width: 60%;
+}
+}

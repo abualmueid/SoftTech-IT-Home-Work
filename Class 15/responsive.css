@@ -1,0 +1,7 @@
+@media all and (max-width: 768px){
+	.header-area nav ul li{
+		font-size: 12px;
+		margin-right: 20px;
+	
+}
+}

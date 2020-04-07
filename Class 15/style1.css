@@ -1,0 +1,69 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	transition: 1s;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+}
+
+.box:hover{
+	transform: scale(2);
+}
+
+.box2{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	transition: 1s;
+	
+}
+
+.box2:hover{
+	transform: rotate(45deg);
+}
+
+.box3{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	transition: 1s;
+	position: absolute;
+	left: 10%;
+	top: 30%;
+}
+
+.box3:hover{
+	transform: rotateX(45deg) rotateY(45deg);
+}
+
+.box4{
+	width: 100px;
+	height: 100px;
+	background-color: orange;
+	position: absolute;
+	left: 10%;
+	top: 50%;
+	box-shadow: 10px 10px 5px #000000;
+	text-shadow: 5px 5px 1px green;
+	animation-name: mueid;
+	animation-duration: 10s;
+}
+
+@keyframes mueid{
+	50%{
+		width: 200px;
+		height: 200px;
+		background-color: brown;
+	}
+
+	80%{
+		width: 50px;
+		height: 50px;
+		background-color: purple;
+		position: absolute;
+		left: 500px;
+		top: 500px;
+	}
+}
