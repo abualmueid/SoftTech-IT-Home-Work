@@ -1,0 +1,22 @@
+.header-section{
+    min-height: 700px;
+    background-image: url('images/header-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-section .main-menu{
+    padding-top: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-section .main-menu ul li{
+    margin-right: 70px;
+}
+
+.header-section .main-menu ul li a{
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
