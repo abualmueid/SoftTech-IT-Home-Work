@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <title>Bootstrap Sandbox</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="display-3 text-center my-4">Input Groups & Addons</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                            2: Utilities
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="2_2_basic_typography.html">2.2 Basic Typography</a>
+                            <a class="dropdown-item" href="2_3_text_alignment_display.html">2.3 Text Alignment & Display</a>
+                            <a class="dropdown-item" href="2_4_floats_position.html">2.4 Floats & Position</a>
+                            <a class="dropdown-item" href="2_5_colors_background.html">2.5: Colors & Background</a>
+                            <a class="dropdown-item" href="2_6_spacing.html">2.6 Spacing</a>
+                            <a class="dropdown-item" href="2_7_sizing.html">2.7 Sizing</a>
+                            <a class="dropdown-item" href="2_8_breakpoints.html">2.8 Breakpoints</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-success btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                            3: CSS Components
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="3_2_buttons.html">3.2 Buttons</a>
+                            <a class="dropdown-item" href="3_3_navbar.html">3.3 Navbar</a>
+                            <a class="dropdown-item" href="3_4_list_groups_badges.html">3.4 List Groups & Badges</a>
+                            <a class="dropdown-item" href="3_5_forms.html">3.5 Forms</a>
+                            <a class="dropdown-item" href="3_6_input_groups.html">3.6 Input Groups</a>
+                            <a class="dropdown-item" href="3_7_alerts_progress.html">3.7 Alerts & Progress</a>
+                            <a class="dropdown-item" href="3_8_tables_pagination.html">3.8 Tables & Pagination</a>
+                            <a class="dropdown-item" href="3_9_cards.html">3.9 Cards</a>
+                            <a class="dropdown-item" href="3_10_media_object.html">3.10 Media Objects</a>
+                            <a class="dropdown-item" href="3_11_jumbotron.html">3.11 Jumbotron</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-warning btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                            4: Grid & Flexbox
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="4_2_grid_system.html">4.2 Grid System</a>
+                            <a class="dropdown-item" href="4_3_grid_alignment.html">4.3 Grid Alignment</a>
+                            <a class="dropdown-item" href="4_4_flexbox.html">4.4 Flexbox</a>
+                            <a class="dropdown-item" href="4_5_auto_margins_wrapping_order.html">4.5 Auto Margins & Wrap</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-danger btn-block dropdown-toggle" type="button" data-toggle="dropdown">
+                            5: JavaScript Widgets
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="5_2_carousel.html">5.2 Carousel</a>
+                            <a class="dropdown-item" href="5_3_collapse.html">5.3 Collapse</a>
+                            <a class="dropdown-item" href="5_4_tooltips.html">5.4 Tooltips</a>
+                            <a class="dropdown-item" href="5_5_popovers.html">5.5 Popovers</a>
+                            <a class="dropdown-item" href="5_6_modals.html">5.6 Modals</a>
+                            <a class="dropdown-item" href="5_7_scrollspy.html">5.7 ScrollSpy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </header>
+
+    <div class="container">
+        <!--####################START HERE#####################-->
+
+        <!-- BASIC INPUT GROUPS -->
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+            </div>
+            <input class="form-control" type="text" placeholder="Username">
+        </div>
+
+        <br>
+
+        <div class="input-group mb-3">
+            <input class="form-control" type="text" placeholder="Username">
+            <div class="input-group-append">
+                <span class="input-group-text">@something.com</span>
+            </div>
+        </div>
+
+        <br>
+
+        <label for="basic-url">Custom URL</label>
+        <div>
+            <div>
+                <span>https://something.com/member/</span>
+            </div>
+            <input type="text">
+        </div>
+
+        <br>
+
+        <div>
+            <div>
+                <span>$</span>
+            </div>
+            <input type="text">
+            <div>
+                <span>.00</span>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- CHECKBOX -->
+        <div>
+            <div>
+                <div>
+                    <input type="checkbox">
+                </div>
+            </div>
+            <input type="text">
+        </div>
+
+        <br>
+
+        <!-- RADIO -->
+        <div>
+            <div>
+                <div>
+                    <input type="radio">
+                </div>
+            </div>
+            <input type="text">
+        </div>
+
+        <br>
+
+        <!-- MULTIPLE INPUTS -->
+        <div>
+            <div>
+                <span id="">Name & Email</span>
+            </div>
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+        </div>
+
+        <br><br>
+
+        <!-- BUTTON ADDONS -->
+        <div class="input-group">
+            <input class="form-control" type="text" placeholder="Find By Name...">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Search</button>
+            </div>
+        </div>
+        <br><br>
+
+        <!-- ALERTS -->
+        <div class="alert alert-primary">
+            <strong>Primary</strong> Blog post added
+        </div>
+
+        <div class="alert alert-secondary">
+            <strong>Secondary</strong> Blog post added
+        </div>
+
+        <div class="alert alert-success">
+            <strong>Success</strong> Blog post added
+        </div>
+
+        <div>
+            <strong>Danger</strong> Please check the log files
+        </div>
+
+        <div>
+            <strong>Info</strong> You have a new message
+        </div>
+
+        <div>
+            <strong>Warning</strong> Please check the log files
+        </div>
+
+        <div>
+            <strong>Light</strong> Please check the log files
+        </div>
+
+        <div>
+            <strong>Dark</strong> Please check the log files
+        </div>
+
+
+        <!-- DISMISSABLE ALERT -->
+        <div class="alert alert-info alert-dismissible">
+            <button class="close" data-dismiss="alert" type="button">
+                <span>&times;</span>
+            </button>
+            <strong>Dismissable</strong> Blog post added
+        </div>
+
+        <!-- EXTRA CONTENT -->
+        <div class="alert alert-warning">
+            <h4 class="alert-heading">Congrats!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit dignissimos eius, sit quo assumenda totam commodi
+                ipsum saepe molestias eligendi exercitationem repudiandae qui facilis deserunt non, harum ab quam? Cumque</p>
+            <hr>
+            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, odio?</p>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- PROGRESS BARS -->
+        <div class="progress">
+            <div class="progress-bar" style="width: 35%;">35%</div>
+        </div>
+        <br>
+        <div class="progress" style="height: 50px;">
+            <div class="progress-bar bg-danger" style="width: 75%;"></div>
+        </div>
+        <br>
+        <div class="progress">
+            <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 50%;"></div>
+        </div>
+        <br>
+        <div>
+            <div></div>
+        </div>
+        <br>
+        <div>
+            <div></div>
+        </div>
+        <br>
+        <!-- HEIGHT -->
+        <div>
+            <div></div>
+        </div>
+        <br>
+        <!-- STRIPED -->
+        <div>
+            <div></div>
+        </div>
+        <br>
+        <!-- ANIMATED -->
+        <div>
+            <div></div>
+        </div>
+        <br>
+        <!-- MULTIPLE BARS -->
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 25%;">html : 25%</div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" style="width: 25%;">css : 25% </div>
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 25%;">bootstrap : 25%</div>
+        </div>
+        <br><br>
+        <!-- TABLE -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- INVERSE/DARK TABLE -->
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- TABLE HEAD INVERSE -->
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- STRIPED TABLE -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- BORDERED TABLE -->
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- BORDERLESS TABLE -->
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- HOVERABLE -->
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- CONTEXTUAL CLASSES -->
+        <table class="table">
+            <thead>
+                <tr class="table-success">
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-danger">
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- SMALL TABLE -->
+        <table class="table table-sm table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- RESPONSIVE TABLE - Scrollbars -->
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>jdoe@gmail.com</td>
+                        <th scope="row">1</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>jdoe@gmail.com</td>
+                        <th scope="row">1</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>jdoe@gmail.com</td>
+                        <th scope="row">1</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>jdoe@gmail.com</td>
+                        <th scope="row">1</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>jdoe@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Will</td>
+                        <td>Johnson</td>
+                        <td>will@yahoo.com</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Shannon</td>
+                        <td>Williams</td>
+                        <td>shannon@yahoo.com</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- PAGINATION -->
+        <nav>
+            <ul class="pagination">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a  class="page-link"href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- PAGINATION CENTERED -->
+        <nav>
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a  class="page-link"href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- PAGINATION RIGHT -->
+        <nav>
+            <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a  class="page-link"href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- PAGINATION LARGE -->
+        <nav>
+            <ul class="pagination pagination-lg justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a  class="page-link"href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- PAGINATION SMALL -->
+        <nav>
+            <ul class="pagination pagination-sm justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">Previous</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a  class="page-link"href="#">Next</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- WITH ARROWS -->
+        <nav>
+            <ul class="pagination justify-content-center">
+                <li class="page-item">
+                    <a class="page-link" href="#">
+                        <span>&laquo;</span>
+                        <span class="sr-only">Previous</span> 
+                    </a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a  class="page-link"href="#">
+                        <span>&raquo;</span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <br><br>
+
+        <!-- BLOCK -->
+        <div class="card">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, voluptate.
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- SIMPLE CARD -->
+        <div class="card" style="width: 20rem;">
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <h6 class="card-subtitle text-muted">Card subtitle</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                <a class="btn btn-outline-primary" href="#">Read More</a>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- CARD WITH IMAGE -->
+        <div>
+            <img src="https://source.unsplash.com/random/300x200" alt="">
+            <div>
+                <h4>Card Title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- CARD WITH HEADER -->
+        <div class="card">
+            <div class="card-header">
+                My Card
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-danger btn-block" href="#">Read More</a>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- HEADER, FOOTER, CENTERED -->
+        <div class="card">
+            <div class="card-header">
+                My Card
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-info" href="#">Read More</a>
+            </div>
+            <div class="card-footer text-muted">
+                2 Days Ago
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- CARD WITH NAV -->
+        <div class="card">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-warning" href="#">Read More</a>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- IMAGE OVERLAYS -->
+        <div class="card text-white">
+            <img class="card-img" src="https://source.unsplash.com/random/1000x300" alt="">
+            <div class="card-img-overlay">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
+                    is a little bit longer.</p>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+
+        <!-- BACKGROUND COLOR -->
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Primary card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Secondary card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Success card title</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Danger card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Warning card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Info card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Light card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Dark card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- CARD OUTLINE -->
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Primary card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Secondary card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Success card title</h4>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Danger card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Warning card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Info card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Light card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+
+        <div>
+            <div>Header</div>
+            <div>
+                <h4>Dark card title</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <!-- CARD GROUP -->
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-body">
+                    <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt="">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card Title</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+        <br>
+
+        <!-- CARD DECK -->
+        <div>
+            <div>
+                <div>
+                    <h4>Card Title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h4>Card Title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h4>Card Title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- CARD COLUMNS -->
+        <div>
+            <div>
+                <img src="https://source.unsplash.com/random/300x200" alt="">
+                <div>
+                    <h4>Card title that wraps to a new line</h4>
+                    <p>This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+            <div>
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer>
+                        <small>
+                            Someone famous in
+                            <cite title="Source Title">Source Title</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/301x200" alt="">
+                <div>
+                    <h4>Card title</h4>
+                    <p>This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p>
+                        <small>Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                    <footer>
+                        <small>
+                            Someone famous in
+                            <cite title="Source Title">Source Title</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div>
+                <div>
+                    <h4>Card title</h4>
+                    <p>This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p>
+                        <small>Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img src="https://source.unsplash.com/random/302x200" alt="">
+            </div>
+            <div>
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer>
+                        <small>
+                            Someone famous in
+                            <cite title="Source Title">Source Title</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div>
+                <div>
+                    <h4>Card title</h4>
+                    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This card
+                        has even longer content than the first to show that equal height action.</p>
+                    <p>
+                        <small>Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+                
+
+            <!-- MEDIA OBJECT -->
+            <div class="media">
+                <img class="mr-3 mt-3" src="https://source.unsplash.com/random/90x90">
+                <div class="media-body">
+                    <h5>Media heading</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+                    felis in faucibus.
+                </div>
+            </div>
+
+            <br>
+            <br>
+    
+            <!-- NESTING MEDIA OBJECTS -->
+            <div>
+                <img src="https://source.unsplash.com/random/90x91">
+                <div>
+                    <h5>Media heading</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
+                    felis in faucibus.
+    
+                    <div>
+                        <a href="#">
+                            <img src="https://source.unsplash.com/random/90x92">
+                        </a>
+                        <div>
+                            <h5>Nested Media</h5>
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                            vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                            congue felis in faucibus.
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <br>
+            <br>
+    
+            <!-- TOP ALIGNED (DEFAULT) -->
+            <div class="media">
+                <img class="mr-3 align-self-top" src="https://source.unsplash.com/random/90x93">
+                <div class="media-body">
+                    <h5>Top aligned media</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                        Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+    
+            <br>
+            <br>
+    
+            <!-- CENTER ALIGNED -->
+            <div class="media">
+                <img class="align-self-center mr-3" src="https://source.unsplash.com/random/90x94">
+                <div class="media-body">
+                    <h5>Center aligned media</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                        Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+    
+            <br>
+            <br>
+    
+            <!-- BOTTOM ALIGNED -->
+            <div>
+                <img src="https://source.unsplash.com/random/90x95">
+                <div>
+                    <h5>Bottom aligned media</h5>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+                        vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+                        Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+    
+            <br>
+            <br>
+    
+            <!-- MEDIA LIST -->
+            <ul>
+                <li>
+                    <img src="https://source.unsplash.com/random/90x96">
+                    <div>
+                        <h5>List based media object</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                        congue felis in faucibus.
+                    </div>
+                </li>
+                <li>
+                    <img src="https://source.unsplash.com/random/90x97">
+                    <div>
+                        <h5>List based media object</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                        congue felis in faucibus.
+                    </div>
+                </li>
+                <li>
+                    <img src="https://source.unsplash.com/random/90x98">
+                    <div>
+                        <h5>List based media object</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                        vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                        congue felis in faucibus.
+                    </div>
+                </li>
+            </ul>    
+
+        <!-- JUMBOTRON -->
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Welcome To My Website!</h1>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum necessitatibus perspiciatis cum vitae, modi hic?</p>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.</p>
+            <a class="btn btn-warning btn-lg" href="#" role="button">Read More</a>
+        </div>
+        <br>
+        </div>
+
+    
+    <!-- FLUID JUMBOTRON -->
+    <!-- <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Fluid Jumbotron</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas recusandae voluptatibus, natus architecto asperiores
+            a.
+            </p>
+        </div>    
+    </div> -->
+
+        <!-- RESPONSIVE GRID -->
+        <div class="row">
+            <div class="col-sm-6 col-md-8 col-lg-9 col-xl-10" style="border:1px solid #333">
+                <ul>
+                    <li>6 column on small screens</li>
+                    <li>8 column on medium screen</li>
+                    <li>9 column on large screen</li>
+                    <li>10 column on xlarge screen</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl-2" style="border:1px solid #333">
+                <ul>
+                <li>6 column on small screens</li>
+                <li>4 column on medium screen</li>
+                <li>3 column on large screen</li>
+                <li>2 column on xlarge screen</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- EQUAL WIDTH -->
+        <div class="row">
+        <div class="col" style="border:1px solid #333">Equal Width</div>
+        <div class="col" style="border:1px solid #333">Equal Width</div>
+        <div class="col" style="border:1px solid #333">Equal Width</div>
+        <div class="col" style="border:1px solid #333">Equal Width</div>
+        </div>
+
+        <!-- EQUAL WIDTH MULTI ROW -->
+        <div class="row">
+        <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+        <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+        <div class="w-100" style="border:1px solid #333">width 100%</div>
+        <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+        <div class="col" style="border:1px solid #333">Equal Width Multi</div>
+        </div>
+
+        <!-- AUTO LAYOUT -->
+        <div class="row">
+        <div class="col" style="border:1px solid #333">Auto Layout</div>
+        <div class="col-6" style="border:1px solid #333">Auto Layout</div>
+        <div class="col-4" style="border:1px solid #333">Auto Layout</div>
+        </div>
+
+        <!-- EQUAL WIDTH STACKED -->
+        <div>
+        <div style="border:1px solid #333">Equal Width Stack</div>
+        <div style="border:1px solid #333">Equal Width Stack</div>
+        <div style="border:1px solid #333">Equal Width Stack</div>
+        </div>
+
+        <!-- ORDERING -->
+        <div class="row">
+        <div class="col order-3" style="border:1px solid #333">
+            First
+        </div>
+        <div class="col order-2" style="border:1px solid #333">
+            Second
+        </div>
+        <div class="col order-1" style="border:1px solid #333">
+            Third
+        </div>
+        </div>
+
+        <!-- OFFSETTING -->
+        <div class="row">
+        <!-- 6 column div offset by 3 -->
+        <div class="col-md-3  offselt-md-3" style="border:1px solid #333">.col-md-6 .offset-md-3</div>
+        </div>
+        <div class="row">
+        <!-- 2 4 column divs, the second offset by 4 -->
+        <div class="col-md-3 offeet-md-3" style="border:1px solid #333">.col-md-4</div>
+        <div class="col-md-3 offset-md-3" style="border:1px solid #333">.col-md-4 .offset-md-4</div>
+        </div>
+
+        <div>
+        <!-- 2 3 column divs, both offset by 3 -->
+        <div style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+        <div style="border:1px solid #333">.col-md-3 .offset-md-3</div>
+        </div>
+
+        <!-- NESTING -->
+        <div class="row">
+        <div class="cols-sm-9" style="border:1px solid blue">
+            Level 1: .col-sm-9
+            <div class="row">
+            <div class="col-8 col-sm-6" style="border:1px solid red">
+                Level 2: .col-8 .col-sm-6
+            </div>
+            <div class="col-4 col-sm-6" style="border:1px solid red">
+                Level 2: .col-4 .col-sm-6
+            </div>
+            </div>
+        </div>
+        </div>
+        <br><br>
+
+        <!-- VERTICAL ALIGNMENT -->
+        <div class="container bg-success">
+            <div class="row align-items-start" style="height:200px;border:1px #333 solid">
+                <div class="col">
+                    Top Aligned Text
+                </div>
+                <div class="col">
+                    Top Aligned Text
+                </div>
+                <div class="col">
+                    Top Aligned Text
+                </div>
+            </div>
+            <div class="row align-items-center" style="height:200px;border:1px #333 solid">
+                <div class="col">
+                    Middle Aligned Text
+                </div>
+                <div class="col">
+                    Middle Aligned Text
+                </div>
+                <div class="col">
+                    Middle Aligned Text
+                </div>
+            </div>
+            <div class="row align-items-end" style="height:200px;border:1px #333 solid">
+                <div class="col">
+                    Bottom Aligned Text
+                </div>
+                <div class="col">
+                    Bottom Aligned Text
+                </div>
+                <div class="col">
+                    Bottom Aligned Text
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- VERTICAL ALIGN INDIVIDUAL COLS -->
+        <div class="container">
+            <div class="row" style="height:200px;border:1px #333 solid">
+                <div class="col align-self-start">
+                    Top Aligned
+                </div>
+                <div class="col align-self-center">
+                    Middle Aligned
+                </div>
+                <div class="col align-self-end">
+                    Bottom Aligned
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- HORIZONTAL ALIGNED COLS -->
+        <div class="container">
+            <div class="row justify-content-start" style="height:200px;border:1px #333 solid">
+                <div class="col-4">
+                    Left Aligned Text
+                </div>
+                <div class="col-4">
+                    Left Aligned Text
+                </div>
+            </div>
+            <div class="row justify-content-center" style="height:200px;border:1px #333 solid">
+                <div class="col-4">
+                    Center Aligned Text
+                </div>
+                <div class="col-4">
+                    Center Aligned Text
+                </div>
+            </div>
+            <div class="row justify-content-end" style="height:200px;border:1px #333 solid">
+                <div class="col-4">
+                    Right Aligned Text
+                </div>
+                <div class="col-4">
+                    Right Aligned Text
+                </div>
+            </div>
+            <div class="row justify-content-around" style="height:200px;border:1px #333 solid">
+                <div class="col-4 bg-danger">
+                    Content Around
+                </div>
+                <div class="col-4 bg-info">
+                    Content Around
+                </div>
+            </div>
+            <div class="row justify-content-between" style="height:200px;border:1px #333 solid">
+                <div class="col-4 bg-warning">
+                    Content Between
+                </div>
+                <div class="col-4 bg-success">
+                    Content Between
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <!-- COLUMN WRAPPING & NO GUTTERS-->
+        <div class="row no-gutters">
+            <div class="col-9">
+                <div class="card">
+                    <div class="card-block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repudiandae!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repudiandae!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, repudiandae!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+    <!-- ./container -->
+
+    <div style="margin-top:500px;"></div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
