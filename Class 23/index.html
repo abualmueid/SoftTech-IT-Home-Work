@@ -1,239 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta name="description" content="cuda single page portfolio">
 
-	<title>My Portfolio</title>
+    <title>Cuda | Single Page Portfolio Template</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 </head>
+<body>
+    <!-- header-area -->
+    <header class="header-area">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo-area">
+                    <img src="image/logo.png" alt="logo">
+                </div>
+                <nav class="menu-area">
+                    <ul>
+                        <li><a class="active" href="http://">home</a></li>
+                        <li><a href="http://">about</a></li>
+                        <li><a href="http://">work</a></li>
+                        <li><a href="http://">blog</a></li>
+                        <li><a href="http://">contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-bottom">
+                <h1>Hi there! We are the new kids on the block <br>
+                    and we build awesome websites and mobile apps.</h1>
+                <button>work with us!</button>
+            </div>
+        </div>
+    </header>
 
-<body data-spy="scroll" data-target=".navbar">
-	<!--navbar-->
-	<div id="header">
-		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-			 <div class="container">
-			 	<button class="navbar navbar-toggler" data-toggle="collapse" data-target="#navbar">
-					<span class="navbar-toggler-icon"></span>			 		
-			 	</button>
-			 	<a href="#" class="navbar-brand"><h3>Portfolio</h3></a>
-			 	<div class="collapse navbar-collapse" id="navbar">
-			 		<ul class="navbar-nav ml-auto">
-			 			<li class="nav-item"><a href="#About" class="nav-link">About Me</a></li>
-			 			<li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-			 			<li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
-			 			<li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
-			 		</ul>
-			 		
-			 	</div>
-			 </div>
-		</nav>
-	</div>
+    <!-- service-area -->
+    <section class="service-area">
+        <div class="container">
+            <div class="service-header">
+                <h2>services we provide</h2>
+                <hr>
+                <p class="p1">We are working with both individuals and businesses from all over the globe <br>
+                    to create awesome websites and applications.
+                </p>
+            </div>
+            <div class="service-footer">
+                <div class="service-item">
+                    <img src="image/flag.png" alt="flag">
+                    <h3>branding</h3>
+                    <p>Lorem ipsum dolor sit amet, <br>
+                        consectetuer adipiscing elit, <br> sed diam nonummy nibh.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <img src="image/pencil.png" alt="flag">
+                    <h3>design</h3>
+                    <p>Lorem ipsum dolor sit amet, <br>
+                        consectetuer adipiscing elit, <br> sed diam nonummy nibh.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <img src="image/gear.png" alt="flag">
+                    <h3>development</h3>
+                    <p>Lorem ipsum dolor sit amet, <br>
+                        consectetuer adipiscing elit, <br> sed diam nonummy nibh.
+                    </p>
+                </div>
+                <div class="service-item">
+                    <img src="image/rocket.png" alt="flag">
+                    <h3>rocket science</h3>
+                    <p>Lorem ipsum dolor sit amet, <br>
+                        consectetuer adipiscing elit, <br> sed diam nonummy nibh.
+                    </p>
+                </div>
+            </div> 
+        </div>
+    </section>
 
-	<!--About Me-->
-	<div id="bg-img" class="img-fluid"></div>
-	<div id="About">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div id="AboutData">
-						<div class="card bg-white">
-							<div class="card-title my-5">
-								<div class="media">
-									<div class="row">
-									<div class="col-lg-4">
-										
-										<img src="image/person.jpg" width="250" height="250" class="img-fluid rounded-top mx-5">
-									</div>
-									<div class="col-lg-2">
-										
-										
-									</div>
-									<div class="col-lg-6">
-										
-										<div class="media-body">
-										<h3 class="display-4 ml-5">I'm Mueid</h3>
-										<p class="text-muted ml-5">Web Developer & Freelancer</p>
-										<div class="container">
-											<table class="table table-responsive ml-4">
-												<tr>
-													<td class="text-muted">Age</td>
-													<td>:</td>
-													<td>26 years</td>
-												</tr>
-												<tr>
-													<td class="text-muted">Email</td>
-													<td>:</td>
-													<td>abualmueid24@gmail.com</td>
-												</tr>
-												<tr>
-													<td class="text-muted">Website</td>
-													<td>:</td>
-													<td>www.webexpert.com</td>
-												</tr>
-												<tr>
-													<td class="text-muted">Phone</td>
-													<td>:</td>
-													<td>01631221109</td>
-												</tr>
-											</table>
-										</div>
-									</div>
-									</div>
-									</div>
-									
-								</div>
-							</div>
-							<div class="card-footer bg-danger">
-								<a href="#"><i class="fa fa-facebook fa-2x mx-3"></i></a>
-								<a href="#"><i class="fa fa-youtube fa-2x mx-3"></i></a>
-								<a href="#"><i class="fa fa-twitter fa-2x mx-3"></i></a>
-								<a href="#"><i class="fa fa-github fa-2x mx-3"></i></a>
-								<a href="#"><i class="fa fa-pinterest fa-2x mx-3"></i></a>
-							</div>	
-						</div>
-					</div> 
-				</div>
-			</div>
-		</div>
-		<div class="container mt-5">
-			<div class="row">
-				<div class="col">
-					<span class="bg-danger text-white">About Me</span><hr class="bg-danger">
-					<p class="lead text-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like</p>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<!--Skills-->
-	<div id="Skills" class="mt-5">
-		<div class="container">
-			<span class="bg-primary text-white">My Skills</span><hr class="bg-primary">
-			<div class="row">
-				<div class="col">
-					<div class="card bg-white">
-						<h3 class="ml-3 my-3">HTML 5 Language</h3>
-						<div class="progress mx-3">
-							<div class="progress-bar" style="width:90%">90%</div>
-						</div>
-						<h3 class="ml-3 my-3">CSS 3 Language</h3>
-						<div class="progress mx-3">
-							<div class="progress-bar" style="width:80%">80%</div>
-						</div>
-						<h3 class="ml-3 my-3">Javascript Language</h3>
-						<div class="progress mx-3">
-							<div class="progress-bar" style="width:95%">95%</div>
-						</div>
-						<h3 class="ml-3 my-3">JQuery</h3>
-						<div class="progress mx-3">
-							<div class="progress-bar" style="width:75%">75%</div>
-						</div>
-						<h3 class="ml-3 my-3">Bootstrap</h3>
-						<div class="progress mx-3">
-							<div class="progress-bar" style="width:80%">80%</div>
-						</div>
-						<h3 class="ml-3 my-3">PHP Programming Language</h3>
-						<div class="progress mx-3">
-							<div class="progress-bar" style="width:100%">100%</div>
-						</div>
-						<h3 class="ml-3 my-3">MySQL</h3>
-						<div class="progress mx-3">
-							<div class="progress-bar" style="width:90%">90%</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		
-	</div>
 
-	<!--Experience-->
-	<div id="Experience">
-		<div class="container mt-5">
-			<span class="bg-success text-white">Experience</span><hr class="bg-success">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="card bg-white"></div>
-					<img src="image/udemy.jpg" width="200" height="80" class="img-fluid m-auto py-3">
-					<h3 class="text-success ml-3">I'm Udemy Instructor</h3>
-					<p class="lead text-justify p-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-				</div>
-				<div class="col-lg-6">
-					<div class="card bg-white"></div>
-					<img src="image/youtube.png" width="200" height="80" class="img-fluid m-auto py-3">
-					<h3 class="text-success ml-3">I'm Video Creator</h3>
-					<p class="lead text-justify p-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-				</div>
-				<div class="col-lg-6">
-					<div class="card bg-white"></div>
-					<img src="image/google.png" width="200" height="80" class="img-fluid m-auto py-3">
-					<h3 class="text-success ml-3">I'm Digital Marketer</h3>
-					<p class="lead text-justify p-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-				</div>
-				<div class="col-lg-6">
-					<div class="card bg-white"></div>
-					<img src="image/upwork.png" width="200" height="80" class="img-fluid m-auto py-3">
-					<h3 class="text-success ml-3">I'm Freelancer</h3>
-					<p class="lead text-justify p-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-				</div>
-				<div class="col-lg-6">
-					<div class="card bg-white"></div>
-					<img src="image/php.png" width="200" height="80" class="img-fluid m-auto py-3">
-					<h3 class="text-success ml-3">I'm PHP Programmer</h3>
-					<p class="lead text-justify p-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-				</div>
-				<div class="col-lg-6">
-					<div class="card bg-white"></div>
-					<img src="image/android.jpg" width="200" height="80" class="img-fluid m-auto py-3">
-					<h3 class="text-success ml-3">I'm Android Developer</h3>
-					<p class="lead text-justify p-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--Contact-->
-	<div id="Contact">
-		<div class="container mt-5">
-			<span class="bg-dark text-white">Contact Me</span><hr class="bg-dark">
-			<div class="row">
-				<div class="col">
-					<div class="card bg-white">
-						<div class="card-header">
-							<div class="form-group mt-3">
-								<input type="text" placeholder="User Name" class="form-control">
-							</div>
-							<div class="form-group mt-3">
-								<input type="text" placeholder="Email" class="form-control">
-							</div>
-							<div class="form-group mt-3">
-								<textarea class="form-control" placeholder="Comment here..."></textarea>
-							</div>
-							<div class="form-group mt-3">
-								<button class="btn btn-success text-white">Submit</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--Footer-->
-	<div class="container-fluid bg-dark">
-		<div class="row">
-			<div class="col">
-				<div class="container">
-					<p class="text-white pt-3 text-center">Website Designed by: Abu Al Mueid &copy;</p>
-				</div>
-			</div>
-		</div>
-	</div>
+
+
+    <section class="team-area">hello</section>
+    <section class="skill-area"></section>
+    <section class="portfolio-area"></section>
+    <section class="about-us-area"></section>
+    <section class="subscribe-area"></section>
+    <footer class="footer-area"></footer>
+
 </body>
 </html>

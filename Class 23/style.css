@@ -1,53 +1,150 @@
 body{
-	background: #CCC;
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
-#header a:hover{
-	color: red;
+
+h2{
+    overflow: hidden;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
 }
-#bg-img{
-	background: url('image/website.jpg');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	min-height: 500px;
+
+h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 1px;
 }
-#About{
-	margin-top: -100px;
+
+
+/*** header-area ***/
+.header-area{
+    background: #87509c;
+    text-decoration-color: white;
+    padding-top: 50px;
+    text-align: center;
 }
-#About .fa{
-	color: #FFFFFF;
+
+.container{
+    max-width: 80%;
+    margin: auto;
 }
-#About span{
-	padding: 10px 20px 10px 20px;
+
+.header-area .logo-area{
+    float: left;
+}
+
+.header-area .menu-area{
+    float: right;
+}
+
+.header-area .menu-area ul li{
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+.header-area .menu-area ul li a{
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-area .menu-area ul li a:hover{
+    background-color: #462752;
+    border-radius: 5px;
+}
+
+.header-area .header-bottom{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.header-area .header-bottom button{
+    
+    margin: auto;
+    display: inline-block;
+    text-transform: uppercase;
+    color: white;
+    background: #eb7d4b;
+    padding: 30px 100px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+    box-sizing: border-box;
+    /* border-style: none; */
+    border-color: #eb7d4b;
+    border-bottom-width: 5px;
+    border-right-width: 0px;
+    
+}
+
+.header-area .header-bottom button:hover{
+    background-color: #c86a40;
+    cursor: pointer;
+}
+
+.header-area .header-bottom {
+    padding: 100px 0;
+    clear: both;
+}
+
+
+/*** service-area ***/
+
+.service-area{
+    background-color: #17c2a4;
+    overflow: hidden;
+    text-align: center;
+    padding: 120px;
+}
+.service-area .service-header h2{
+    margin: 0;
+
 
 }
-#About hr{
-	border-width: 2px;
-	margin-top: 6px;
-}
-#Skills span{
-	padding: 10px 20px 10px 20px;
 
+.service-area .container{
+    
 }
-#Skills hr{
-	border-width: 2px;
-	margin-top: 6px;
-}
-#Experience span{
-	padding: 10px 20px 10px 20px;
 
+.service-area p{
+    color: white;
+    font-size: 20px;
 }
-#Experience hr{
-	border-width: 2px;
-	margin-top: 6px;
-}
-#Experience .card{
-	border-top: 3px solid #e74c3c;
-}
-#Contact span{
-	padding: 10px 20px 10px 20px;
 
+.service-area h3{
+    color: white;
+    margin-top: 50px;
 }
-#Contact hr{
-	border-width: 2px;
-	margin-top: 6px;
+
+.service-area .p1{
+    font-size: 24px;
+}
+
+.service-area hr{
+    width: 100px;
+    height: 2px;
+    background-color: #14a58c;
+}
+
+.service-area .service-header{
+    margin-bottom: 120px;
+}
+
+.service-area .service-footer .service-item{
+    width: 24%;
+    margin-right: 1%;
+    float: left;
+    overflow: hidden;
 }
